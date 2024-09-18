@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="icon" href="./stick.ico" type="image/x-icon">
+    <title> Sticky Notes</title>
+</head>
+<body>
+    <header>
+        <img src="./sticky.png" alt="sticky-note" class="w-100 ">
+    <div class="text">
+        <h1>Sticky Notes</h1>
+    </div>
+
+
+    </header>
+    <section>
+        <div class="container py-5">
+            <button class="btn btn-info rounded-4 text-center position-relative" onclick="addNote()"> Add Note</button>
+            <textarea class="text-center text-secondary py-3 bg-danger-subtle border-0 w-50 my-5 position-relative" 
+                      style="height: 150px;" id="StickyNote" placeholder="Add Note ..."></textarea>  
+            <input type="date" name="calender" id="dateInput">
+            <div class="row py-5 justify-content-center" id="data">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

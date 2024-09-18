@@ -1,0 +1,56 @@
+header img
+{
+    height: 40vh;
+    position: relative;
+}
+
+.text h1
+{
+    position: absolute;
+    top: 31%;
+    left: 30%;
+    font-family: "Righteous", cursive;
+    font-size: 80px;
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
+ background-image: linear-gradient( to left, pink 25% , rgb(88, 208, 248) 50% , rgb(241, 241, 42) 75% , rgb(236, 81, 107) 100%);
+}
+
+ textarea:focus
+{
+outline: 0 !important;
+}
+
+button.btn-info
+{
+    left: 45%;
+}
+ 
+
+textarea
+{
+    left: 15%;
+}
+
+
+@media screen and (max-width: 672px) {
+
+    textarea
+    {
+        position:relative;
+        top: 50px;
+        left: 5px;
+    }
+    .text h1
+    {
+        position: absolute;
+       top: 28%;
+        left: 20%;
+    }
+    button.btn-info
+    {
+        position: relative;
+        top: 50px;
+    }
+
+}
+
